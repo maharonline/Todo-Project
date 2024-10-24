@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { useAuthContext } from '../../context/AuthContext'
+import { useAuthContext } from 'context/AuthContext'
 import { Button, Col, Form, Input, Progress, Row, Typography } from 'antd'
 import FormItem from 'antd/es/form/FormItem'
 import { doc, serverTimestamp, setDoc } from 'firebase/firestore'
-import { firestore, storage } from '../../config/firebase'
+import { firestore, storage } from 'config/firebase'
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage'
 
 const { Title } = Typography

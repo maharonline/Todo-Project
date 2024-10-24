@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { auth, firestore } from '../../config/firebase'
+import { auth, firestore } from 'config/firebase'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { doc, serverTimestamp, setDoc } from 'firebase/firestore'
 import { Spin } from 'antd'
-import CustomSpinner from '../../components/CustomSpinner'
+import CustomSpinner from 'components/CustomSpinner'
 // import { Link } from 'react-router-dom'
 
 

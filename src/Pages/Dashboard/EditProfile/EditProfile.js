@@ -2,7 +2,7 @@ import { Button, Col, Form, Input, Progress, Row } from 'antd';
 import FormItem from 'antd/es/form/FormItem';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { firestore, storage } from '../../../config/firebase';
+import { firestore, storage } from 'config/firebase';
 import { doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 

@@ -1,7 +1,7 @@
 import { sendPasswordResetEmail, signInWithEmailAndPassword } from 'firebase/auth'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { auth } from '../../config/firebase'
+import { auth } from 'config/firebase'
 import { Spin } from 'antd'
 
 

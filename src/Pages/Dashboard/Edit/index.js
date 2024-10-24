@@ -1,10 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react'
-// import CustomSpinner from '../../../components/CustomSpinner'
 import { Button, Col, Form, Input, Row, Typography } from 'antd'
 import FormItem from 'antd/es/form/FormItem'
 import { useParams } from 'react-router-dom'
 import { doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore'
-import { firestore } from '../../../config/firebase'
+import { firestore } from 'config/firebase'
 
 const {Title}=Typography
 

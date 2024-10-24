@@ -1,6 +1,6 @@
 import React from 'react'
-import { useProfileContext } from '../../../context/ProfileContext'
-import  { useAuthContext } from '../../../context/AuthContext';
+import { useProfileContext } from 'context/ProfileContext'
+import  { useAuthContext } from 'context/AuthContext';
 import { Link } from 'react-router-dom';
 import { Image } from 'antd';
 

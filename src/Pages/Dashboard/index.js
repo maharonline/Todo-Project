@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
-import Header from '../../components/Header'
+import Header from 'components/Header'
 import Table from './Table'
 import Profile from './Profile'
 import PasswordUpdate from './Passwordupdate'
